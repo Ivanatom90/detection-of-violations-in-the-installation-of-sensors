@@ -10,8 +10,5 @@ int main()
     reader::RSA DPZ("7sloy_dpz.txt","7sloy_dpz_names.txt");
     Searcher Ser(Suz.GetParameters(), DPZ.GetParameters());
     Ser.PrintAllSuz();
-
-
-    cout << "Hello World!" << endl;
     return 0;
 }
